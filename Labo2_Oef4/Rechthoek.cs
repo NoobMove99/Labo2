@@ -46,7 +46,7 @@ namespace Labo2_Oef4
                 breedte = value;
             }
         }
-        public double Oppervlakte()
+        public double ToonOppervlakte()
         {
             return Lengte * Breedte;
         }
