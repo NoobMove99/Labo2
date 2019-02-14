@@ -11,7 +11,7 @@ namespace Labo2_Oef2
         public int Graad { get; set; }
         public void PrintGraad()
         {
-            if (Graad > 50)
+            if (Graad < 50)
             {
                 Console.WriteLine("Niet geslaagd");
             }

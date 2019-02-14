@@ -10,6 +10,10 @@ namespace Labo2_Oef2
     {
         static void Main(string[] args)
         {
+            Resultaat Res = new Resultaat();
+            Res.Graad = 55;
+            Res.PrintGraad();
+            Console.ReadLine();
         }
     }
 }
