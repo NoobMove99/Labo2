@@ -19,6 +19,7 @@ namespace Labo2_Oef3
             Console.WriteLine("Verschil = " + paar1.Verschil());
             Console.WriteLine("Product = " + paar1.Product());
             Console.WriteLine("Quotient = " + paar1.Quotient());
+            Console.ReadLine();
         }
     }
 }
