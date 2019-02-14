@@ -58,7 +58,15 @@ namespace Labo2_Oef5
             }
             set
             {
-                prijs = value;
+                if (value < 1)
+                {
+                    Console.WriteLine("De prijs kan niet lager zijn dan 0, de prijs word nu op de standaard waarde gezet.");
+                    prijs = 10;
+                }
+                else
+                {
+                    prijs = value;
+                }
             }
         }
     }
