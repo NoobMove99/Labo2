@@ -17,7 +17,7 @@ namespace Labo2_Oef4
                 if (lengte < 1)
                 {
                     Exception e = new ArgumentException("De lengte was kleiner dan 1, de lengte word nu ingesteld op 5");
-                    return 5;
+                    throw e;
                 }
                 else
                 {
@@ -34,7 +34,7 @@ namespace Labo2_Oef4
                 if (breedte < 1)
                 {
                     Exception e = new ArgumentException("De breedte was kleiner dan 1, de breedte word nu ingesteld op 5");
-                    return 5;
+                    throw e;
                 }
                 else
                 {

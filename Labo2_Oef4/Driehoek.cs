@@ -17,7 +17,7 @@ namespace Labo2_Oef4
                 if (basis < 1)
                 {
                     Exception e = new ArgumentException("De basis was kleiner dan 1, deze zal nu verandert worden naar 5");
-                    return 5;
+                    throw e;
                 }
                 else
                 {
@@ -36,7 +36,7 @@ namespace Labo2_Oef4
                 if (hoogte < 1)
                 {
                     Exception e = new ArgumentException("De hoogte was kleiner dan 1, deze zal nu verandert worden naar 5");
-                    return 5;
+                    throw e;
                 }
                 else
                 {
