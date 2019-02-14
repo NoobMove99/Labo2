@@ -10,6 +10,11 @@ namespace Labo2_Oef5
     {
         static void Main(string[] args)
         {
+            Pizza pizza1 = new Pizza();
+            Pizza pizza2 = new Pizza();
+            pizza1.Diameter = 0;
+            pizza1.Prijs = -12;
+            pizza1.Toppings = "";
         }
     }
 }
