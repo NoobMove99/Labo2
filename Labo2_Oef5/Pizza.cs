@@ -39,7 +39,15 @@ namespace Labo2_Oef5
             }
             set
             {
-                topppings = value;
+                if (value == "")
+                {
+                    Console.WriteLine("Je hebt geen topping opgegeven, de standaard topping zal nu worden gekozen");
+                    topppings = "Kaas";
+                }
+                else
+                {
+                    topppings = value;
+                }
             }
         }
         public double Prijs
