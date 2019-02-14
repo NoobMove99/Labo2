@@ -22,9 +22,9 @@ namespace Labo2_Oef3
         {
             return Getal1 * Getal2;
         }
-        public int Quotient()
+        public double Quotient()
         {
-            return Getal1 / Getal2;
+            return Convert.ToDouble(Getal1) / Convert.ToDouble(Getal2);
         }
     }
 }
